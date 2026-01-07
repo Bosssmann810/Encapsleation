@@ -1,0 +1,8 @@
+C:\mason unity\Encapsleation\Encapsleation\bin\Debug\Encapsleation.exe.config
+C:\mason unity\Encapsleation\Encapsleation\bin\Debug\Encapsleation.exe
+C:\mason unity\Encapsleation\Encapsleation\bin\Debug\Encapsleation.pdb
+C:\mason unity\Encapsleation\Encapsleation\obj\Debug\Encapsleation.csproj.AssemblyReference.cache
+C:\mason unity\Encapsleation\Encapsleation\obj\Debug\Encapsleation.csproj.CoreCompileInputs.cache
+C:\mason unity\Encapsleation\Encapsleation\obj\Debug\Encapsleation.exe
+C:\mason unity\Encapsleation\Encapsleation\obj\Debug\Encapsleation.pdb
+C:\mason unity\Encapsleation\Encapsleation\obj\Debug\Encapsleation.exe.config
