@@ -10,7 +10,24 @@ namespace Encapsleation
     {
         static void Main()
         {
-
+            Player player1 = new Player(health: 100, lv: 1, name: "");
+            Player player2 = new Player(health: 100, lv: 1, name: "");
+            Console.WriteLine("Player 1. Please enter your name: ");
+            player1.SetName(Console.ReadLine());
+            player1.PrintStats();
+            Console.WriteLine();
+            Console.WriteLine("Player 2. Please enter your name: ");
+            player2.SetName(Console.ReadLine());
+            player2.PrintStats();
+            Console.ReadKey();
+            Console.Clear();
+            player1.TakeDmg(20);
+            Console.WriteLine("Player 1 took 20 damage");
+            player1.PrintStats();
+            player2.LevelUp();
+            Console.WriteLine("Player 2 leveled up!");
+            player2.PrintStats();
+            Console.ReadKey();
         }
     }
     class Player
@@ -25,18 +42,23 @@ namespace Encapsleation
             _level = lv;
             _name = name;
         }
-        public void takeDmg(int amount)
+        public void TakeDmg(int amount)
         {
             _hp -= amount;
         }
-        public void levelUp()
+        public void LevelUp()
         {
             _level++;
         }
-        public void printStats()
+        public void PrintStats()
         {
             Console.WriteLine($"Name: {_name} Health: {_hp} Level: {_level} ");
         }
+        public void SetName(string newname)
+        {
+            _name = newname;
+        } 
+
     }
     //classes let you make multiple things that work seperate from one another, like code a prefab.
     /*
